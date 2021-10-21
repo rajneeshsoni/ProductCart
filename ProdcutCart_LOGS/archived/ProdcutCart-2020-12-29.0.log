@@ -1,0 +1,155 @@
+2020-12-29 21:54:40,862 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-29 21:54:44,101 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Fetching config from server at : http://localhost:8888
+2020-12-29 21:54:47,039 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-12-29 21:54:47,041 WARN org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/ProductCart/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-12-29 21:54:47,046 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-29 21:54:50,086 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-29 21:54:50,284 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 174ms. Found 3 JPA repository interfaces.
+2020-12-29 21:54:51,165 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=f24d3d6c-612c-396a-9887-75b16833eee0
+2020-12-29 21:54:53,405 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8087 (http)
+2020-12-29 21:54:53,421 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8087"]
+2020-12-29 21:54:53,423 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-12-29 21:54:53,424 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-12-29 21:54:55,516 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-12-29 21:54:55,517 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 8442 ms
+2020-12-29 21:54:56,161 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-29 21:54:56,321 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-12-29 21:54:58,845 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-12-29 21:54:58,964 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-29 21:54:59,072 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-29 21:54:59,168 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-12-29 21:54:59,743 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-29 21:54:59,873 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f5dd81c, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ad8029b, org.springframework.security.web.header.HeaderWriterFilter@1ccba466, org.springframework.security.web.authentication.logout.LogoutFilter@528ad8b2, com.productcart.api.filter.JwtRequestFilter@43646c8f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f3c765d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6410a657, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@bb23376, org.springframework.security.web.session.SessionManagementFilter@6a80e486, org.springframework.security.web.access.ExceptionTranslationFilter@31dea341, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@71bc5f91]
+2020-12-29 21:54:59,919 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-12-29 21:54:59,920 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-29 21:54:59,947 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2020-12-29 21:54:59,948 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-29 21:55:00,179 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-29 21:55:01,697 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-29 21:55:01,710 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-29 21:55:03,897 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2020-12-29 21:55:09,397 WARN org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [restartedMain] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-12-29 21:55:09,624 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2020-12-29 21:55:09,732 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2020-12-29 21:55:09,994 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2020-12-29 21:55:09,995 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2020-12-29 21:55:10,429 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2020-12-29 21:55:10,430 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2020-12-29 21:55:10,943 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2020-12-29 21:55:12,420 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2020-12-29 21:55:12,421 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2020-12-29 21:55:12,422 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2020-12-29 21:55:12,423 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2020-12-29 21:55:12,424 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2020-12-29 21:55:12,425 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2020-12-29 21:55:12,425 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2020-12-29 21:55:13,017 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2020-12-29 21:55:13,023 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2020-12-29 21:55:13,037 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-29 21:55:13,065 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1609259113044 with initial instances count: 1
+2020-12-29 21:55:13,070 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application PRODUCTCART with eureka with status UP
+2020-12-29 21:55:13,072 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1609259113072, current=UP, previous=STARTING]
+2020-12-29 21:55:13,076 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_PRODUCTCART/DESKTOP-29N9Q4N:ProductCart:8087: registering service...
+2020-12-29 21:55:13,086 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8087"]
+2020-12-29 21:55:13,184 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8087 (http) with context path ''
+2020-12-29 21:55:13,186 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8087
+2020-12-29 21:55:13,280 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_PRODUCTCART/DESKTOP-29N9Q4N:ProductCart:8087 - registration status: 204
+2020-12-29 21:55:15,744 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-12-29 21:55:16,206 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-12-29 21:55:16,229 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductCartApplication in 38.203 seconds (JVM running for 45.126)
+2020-12-29 22:00:12,440 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 22:05:12,445 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 22:10:12,456 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 22:15:12,472 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 22:20:12,477 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 22:20:12,633 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8087-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-29 22:20:12,642 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8087-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-12-29 22:20:13,445 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8087-exec-2] Completed initialization in 800 ms
+2020-12-29 22:20:16,060 INFO com.productcart.api.controller.ProductCartController [http-nio-8087-exec-2] productcart>>1
+2020-12-29 22:20:16,164 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8087-exec-2] Resolved [io.jsonwebtoken.ExpiredJwtException: JWT expired at 2020-12-29T22:18:57Z. Current time: 2020-12-29T22:20:16Z, a difference of 79065 milliseconds.  Allowed clock skew: 0 milliseconds.]
+2020-12-29 22:20:47,785 INFO com.productcart.api.controller.ProductCartController [http-nio-8087-exec-4] productcart>>1
+2020-12-29 22:25:12,559 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 22:30:12,582 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 22:31:16,541 INFO com.productcart.api.controller.ProductCartController [http-nio-8087-exec-7] placeOrder
+2020-12-29 22:31:17,642 INFO org.apache.kafka.common.config.AbstractConfig [http-nio-8087-exec-7] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [127.0.0.1:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2020-12-29 22:31:18,014 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8087-exec-7] Kafka version: 2.5.0
+2020-12-29 22:31:18,016 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8087-exec-7] Kafka commitId: 66563e712b0b9f84
+2020-12-29 22:31:18,018 INFO org.apache.kafka.common.utils.AppInfoParser$AppInfo [http-nio-8087-exec-7] Kafka startTimeMs: 1609261277973
+2020-12-29 22:31:19,705 INFO org.apache.kafka.clients.Metadata [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Cluster ID: k-2r9PSwQwml_dpXcY1WcA
+2020-12-29 22:35:12,602 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 22:40:12,612 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 22:45:12,623 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 22:46:41,893 INFO com.productcart.api.controller.ProductCartController [http-nio-8087-exec-10] productcart>>1
+2020-12-29 22:47:29,507 INFO com.productcart.api.controller.ProductCartController [http-nio-8087-exec-1] placeOrder
+2020-12-29 22:50:12,639 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 22:55:12,664 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 23:00:12,675 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 23:05:12,691 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 23:10:12,699 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 23:15:12,718 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-12-29 23:20:12,734 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
